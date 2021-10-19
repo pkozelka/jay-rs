@@ -60,6 +60,7 @@ table Type {
 
 
 union Stats {
+/*
   Bool    : StatsBool,
   Int8    : StatsInt8,
   Int16   : StatsInt16,
@@ -67,8 +68,10 @@ union Stats {
   Int64   : StatsInt64,
   Float32 : StatsFloat32,
   Float64 : StatsFloat64,
+*/
 }
 
+/*
 struct StatsBool    { min: int8;    max: int8;    }
 struct StatsInt8    { min: int8;    max: int8;    }
 struct StatsInt16   { min: int16;   max: int16;   }
@@ -76,6 +79,7 @@ struct StatsInt32   { min: int32;   max: int32;   }
 struct StatsInt64   { min: int64;   max: int64;   }
 struct StatsFloat32 { min: float32; max: float32; }
 struct StatsFloat64 { min: float64; max: float64; }
+*/
 
 
 
